@@ -1,6 +1,5 @@
 # Water Overflow
-Solution for the **Water Overflow** problem.  The goal of this repo is not only to provide an implementation for the solution, but also to demonstrate the approach and infrastructure (TDD, OOP, Documentation, etc). The solution is implemented in **Python 3.9**, with no external libraries or dependencies (apart from the standard library).
-
+A solution to the **Water Overflow** problem.  This repository is organized to demonstrate TDD, OOP concepts without undermining the importance of documentation when working on a project.
 ## Problem Statement
 
 > There is a stack of water glasses in a form of triangle as illustrated. Each glass has a 250ml capacity. When a liquid is poured into the top most glass any overflow is evenly distributed between the glasses in the next row. That is, half of the overflow pours into the left glass while the remainder of the overflow pours into the right glass. 
@@ -15,7 +14,7 @@ Note: In the diagram there appears to be an error (or the definition of `j` is u
 
 #### Python
 
-You will need Python 3.6 or higher to run the command directly. If your system does not have it, I recommend [installing it via Miniconda](https://docs.conda.io/en/latest/miniconda.html). **No other dependencies should be required**.
+You will need Python 3.9 or higher to run the command directly. If your system does not have it, I recommend [installing it via Miniconda](https://docs.conda.io/en/latest/miniconda.html). **No other dependencies should be required**.
 
 1. Clone this repo.
 
@@ -73,7 +72,7 @@ You can also run this program as a Docker container.
 
    ```bash
    # Clone the repo (if you haven't already).
-   git clone https://github.com/krinj/water-overflow.git
+   git clone https://github.com/jared201/water-overflow.git
    
    # Enter the directory (if you haven't already).
    cd water-overflow
