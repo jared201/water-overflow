@@ -176,5 +176,5 @@ python3 -m unittest tests.test_overflow
 #### Additional Notes
 If you installed your Python in a way it is symbolically linked to /usr/bin/python or /usr/local/bin/python, you can alternativiely run the commands above in this manner
 ```bash
-$ python *.py <options> 
+$ python <*.py> <options> 
 ```
