@@ -22,7 +22,7 @@ You will need Python 3.9 or higher to run the command directly. If your system d
    git clone https://github.com/jared201/water-overflow.git
    ```
 
-2. Enter the directory.
+2. Navigate to the directory.
 
    ```bash
    cd water-overflow
@@ -62,30 +62,7 @@ Total Water: 3.0
 Found Water (i=3, j=1): 0.25
 ```
 
-#### Docker
 
-You can also run this program as a Docker container. 
-
-1. Ensure that Docker is installed: <https://docs.docker.com/install/>
-
-2. Build the image.
-
-   ```bash
-   # Clone the repo (if you haven't already).
-   git clone https://github.com/jared201/water-overflow.git
-   
-   # Enter the directory (if you haven't already).
-   cd water-overflow
-   
-   # Build Docker image. Here, it is tagged as 'overflow'.
-   docker build -t overflow .
-   ```
-
-3. Run the container. Once the image is built, you can run it normally using the same arguments as the Python CLI above.
-
-   ```bash
-   docker run overflow -i 0 -j 0 -k 3 -v
-   ```
 
 #### Arguments
 
