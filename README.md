@@ -41,7 +41,7 @@ You should see the expected output. Try with different values of `i` `j` and `k`
 Found Water (i=3, j=1): 0.25
 ```
 
-> **Note**: It appears my implementation is not efficient enough to deal with larger levels of k. (e.g. 50).
+> **Note**: The implementation is not efficient enough to deal with larger levels of k. (e.g. 50).
 
 Also, adding the `-v` flag will cause the program to print out more information about each level.
 
@@ -106,7 +106,7 @@ optional arguments:
 
 ## Analysis
 
-> This is an ad-hoc journal that I will use to document my analysis and thinking as I form a solution to the problem.
+
 
 * First, it is worth mentioning that a closed-form solution might exist for this problem. It looks deterministic enough that perhaps a mathematical function of (i, j, K) could be derived. But we won't go down that path for now.
 * Immediately, the structure of the glasses looks to me like it would work well with a binary tree.
