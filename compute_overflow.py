@@ -9,8 +9,8 @@ import argparse
 import src.overflow as overflow
 from src.glass import Glass
 
-__author__ = "Jakrin Juangbhanich"
-__email__ = "juangbhanich.k@gmail.com"
+__author__ = "Jared Odulio"
+__email__ = "jared.odulio@gmail.com"
 __version__ = "0.0.0"
 
 

@@ -6,8 +6,8 @@ A representation of a single 'glass'. It is essentially an extended binary tree 
 
 from collections import deque
 
-__author__ = "Jakrin Juangbhanich"
-__email__ = "juangbhanich.k@gmail.com"
+__author__ = "Jared Odulio"
+__email__ = "jared.odulio@gmail.com"
 
 
 class Glass:

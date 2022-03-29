@@ -1,5 +1,5 @@
 # Water Overflow
-This is the source code for the **Water Overflow** problem.  The goal of this repo is not only to provide an implementation for the solution, but also to demonstrate the approach and infrastructure (TDD, OOP, Documentation, etc). The solution will be implemented in **Python 3.6**, with no external libraries or dependencies (apart from the standard library).
+Solution for the **Water Overflow** problem.  The goal of this repo is not only to provide an implementation for the solution, but also to demonstrate the approach and infrastructure (TDD, OOP, Documentation, etc). The solution is implemented in **Python 3.9**, with no external libraries or dependencies (apart from the standard library).
 
 ## Problem Statement
 
@@ -20,7 +20,7 @@ You will need Python 3.6 or higher to run the command directly. If your system d
 1. Clone this repo.
 
    ```bash
-   git clone https://github.com/krinj/water-overflow.git
+   git clone https://github.com/jared201/water-overflow.git
    ```
 
 2. Enter the directory.
@@ -32,9 +32,9 @@ You will need Python 3.6 or higher to run the command directly. If your system d
 3. Run the Python script.
 
    ```bash
-   python3 cmd_calculate_overflow.py -i 3 -j 1 -k 3
+   python3 compute_overflow.py -i 3 -j 1 -k 3
    ```
-
+Optionally, if you're Python is setup wit
 You should see the expected output. Try with different values of `i` `j` and `k` to see the results.
 
 ```
@@ -46,7 +46,7 @@ Found Water (i=3, j=1): 0.25
 Also, adding the `-v` flag will cause the program to print out more information about each level.
 
 ```bash
-python3 cmd_calculate_overflow.py -i 3 -j 1 -k 3 -v
+python3 compute_overflow.py -i 3 -j 1 -k 3 -v
 ```
 
 Output:
@@ -114,7 +114,7 @@ optional arguments:
 
 ## Solution
 
-> The solution I will implement is based on the idea above. Simply creating a data structure to represent the problem, and then simulating it.
+> The solution I implemented was based on the idea above. Simply creating a data structure to represent the problem, and then simulating it.
 
 #### Steps
 
@@ -174,3 +174,8 @@ The tests on this program are quite bare-bones, but should prove out the basic f
 python3 -m unittest tests.test_overflow  
 ```
 
+#### Additional Notes
+If you installed your Python in a way it is symbolically linked to /usr/bin/python or /usr/local/bin/python, you can alternativiely run the commands above in this manner
+```bash
+$ python *.py <options> 
+```

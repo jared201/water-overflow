@@ -8,8 +8,8 @@ from collections import deque
 from .glass import Glass
 
 
-__author__ = "Jakrin Juangbhanich"
-__email__ = "juangbhanich.k@gmail.com"
+__author__ = "Jared Odulio"
+__email__ = "jared.odulio@gmail.com"
 
 
 def calculate(i: int=0, j: int=0, k: float=0) -> float:
