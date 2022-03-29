@@ -42,7 +42,7 @@ def calculate(i: int=0, j: int=0, k: float=0) -> float:
             return 0
         right_steps -= 1
 
-    print(f"Found Water (i={i}, j={j}): {n.water}")
+    print(f"Amount of Liquid Found: (i={i}, j={j}): {n.water}")
     return n.water
 
 
@@ -93,6 +93,6 @@ def illustrate(glass: Glass) -> (int, float):
 
         print(" ".join(str_arr))
 
-    print(f"N. Glasses: {n_glasses}")
-    print(f"Total Water: {total_water}")
+    print(f"Number of Glasses: {n_glasses}")
+    print(f"Total Amount of Water: {total_water}")
     return n_glasses, total_water
